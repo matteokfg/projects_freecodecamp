@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(180deg, #010c57, #353a5c);
+  color: white;
+}
+header{
+  text-align: center;
+  margin: 20px 15px 0px 55px;
+  padding: 5px 0px 5px 0px;
+  font-family: sans-serif;
+  background-color: #021069;
+}
+form{
+  text-align: justify;
+  margin: 0px 15px 15px 55px;
+  font-family: arial;
+  background: linear-gradient(180deg, #021069, #41476e);
+}
+label {
+  margin: 25px 15px 15px 10px;
+}
+#name {
+  margin: 5px 15px 15px 15px;
+}
+#email {
+  margin: 5px 15px 15px 15px;
+}
+#number {
+  margin: 5px 15px 15px 15px;
+  padding: 0px 25px 0px 5px;
+}
+#dropdown {
+  margin: 5px 15px 15px 15px;
+}
+#submit {
+  width: 100%;
+  height: 50px;
+  margin: 0px 0px 0px 0px;
+  background-color: #2cf216;
+  border-style: none;
+}
+#submit:hover {
+  transform: scale(1.05);
+  background-color: #6aeb5b;
+  
+}
+[name="caixa_avaliacao"] {
+  margin: 5px 15px 15px 20px;
+}
+[type="radio"] {
+  margin: 5px 5px 15px 20px;
+}
+[type="checkbox"] {
+  margin: 5px 3px 7px 20px;
+}
