@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking time to help us to improve the plataform!</p>
+  </header>
+  <form id="survey-form">
+
+    <label id="name-label">Name:
+      <br>
+      <input id="name" type="text" placeholder="Enter your name" required>
+    </label><br>
+
+    <label id="email-label">E-mail:
+      <br>
+      <input id="email" type="email" placeholder="user123@gmail.com" required>
+    </label><br>
+
+    <label id="number-label">Age:
+      <br>
+      <input id="number" type="number" min="0" max="200" placeholder="Enter your age">
+    </label><br>
+
+    <label form="survey-form">Which option best describes your current role?
+      <br>
+      <select name="ocupacao" id="dropdown">
+        <option name="ocupacao">Select current role
+        <option name="ocupacao">Student
+        <option name="ocupacao">Full time job
+        <option name="ocupacao">Full time learner
+        <option name="ocupacao">Prefer not to say
+        <option name="ocupacao">Other
+      </select>
+    </label><br>
+
+    <label form="survey-form">Would you recommend freeCodeCamp to a friend?
+      <br>
+      <input name="cidade" type="radio" value="definitly">Definitly
+      <input name="cidade" type="radio" value="maybe">Maybe
+      <input name="cidade" type="radio" value="not sure">Not Sure
+    </label><br>
+
+    <label form="survey-form">What would you like to see improved?
+      <br>
+      <input type="checkbox" value="front-end_proj">Front-end Projects
+      <br>
+      <input type="checkbox" value="back-end_proj">Back-end Projects
+      <br>
+      <input type="checkbox" value="data_visu">Data Visualization
+      <br>
+      <input type="checkbox" value="challenges">Challenges
+      <br>
+      <input type="checkbox" value="open-source_comun">Open Source Community
+      <br>
+      <input type="checkbox" value="help">Gitter help rooms
+      <br>
+      <input type="checkbox" value="videos">Videos
+      <br>
+      <input type="checkbox" value="meetups">City Meetups
+      <br>
+      <input type="checkbox" value="wiki">Wiki
+      <br>
+      <input type="checkbox" value="forum">Forum
+      <br>
+      <input type="checkbox" value="addicional_courses">Addicional Courses
+    </label><br>
+
+    <label form="survey-form" id="comments">Any comments or suggestions?
+      <br>
+      <textarea id="survey-form" name="caixa_avaliacao" cols="40" rows="5" placeholder="Enter your comments here..."></textarea>
+    </label><br><br>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
